@@ -11,7 +11,7 @@ function App() {
     }
 
     // create scene object
-    const scene = new BasicScene(canvasRef.current, { debug: true });
+    const scene = new BasicScene(canvasRef.current, { debug: false });
 
     // initialize scene
     await scene.initialize();

@@ -21,6 +21,7 @@ body {
   height: 100vh;
 }
 
+#root,
 canvas {
   min-width: 100%;
   min-height: 100%;
